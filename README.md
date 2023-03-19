@@ -13,7 +13,5 @@
 [dependencies]
 rustyline = "11.0.0"
 anyhow = "1.0.69"
-
-[dependencies.Sub-OCaml]
-path = "Sub-OCaml" # change to your path
+Sub-OCaml = { git = "https://github.com/Neotamandua/Sub-OCaml" }
 ```

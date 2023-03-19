@@ -8,6 +8,4 @@ edition = "2021"
 [dependencies]
 rustyline = "11.0.0"
 anyhow = "1.0.69"
-
-[dependencies.Sub-OCaml]
-path = "../temp/Sub-OCaml" # change to your path
+Sub-OCaml = { git = "https://github.com/Neotamandua/Sub-OCaml" }
