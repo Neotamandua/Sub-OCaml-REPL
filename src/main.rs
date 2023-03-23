@@ -1,11 +1,8 @@
 use std::collections::HashMap;
-
 use anyhow::Result;
 use rustyline::error::ReadlineError;
 use rustyline::DefaultEditor;
-use Sub_OCaml::{
-    error::Error::UtilsError, run_code, run_code_with_persistent_environment, ty, type_check, value,
-};
+use Sub_OCaml::{run_code_with_persistent_environment, ty, value};
 
 fn main() -> Result<()> {
     // `()` can be used when no completer is required
@@ -26,7 +23,7 @@ fn main() -> Result<()> {
                         println!("Result: {:?}", r.3);
                     }
                     Err(err) => {
-                        println!("{:?}", err);
+                        println!("{}", err);
                     }
                 };
             }

@@ -5,6 +5,7 @@ version = 3
 [[package]]
 name = "Sub-OCaml"
 version = "0.1.0"
+source = "git+https://github.com/Neotamandua/Sub-OCaml#de24967f7a6b866ca1adcf24eba0f1aa0a57cb4e"
 dependencies = [
  "thiserror",
 ]
